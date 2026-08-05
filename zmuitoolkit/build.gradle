@@ -3,7 +3,6 @@ artifacts.add("default", file('zmuitoolkit.aar'))
 
 dependencies {
     // Aligned with uitoolkit/build.gradle and android-common libs.versions.toml (Android SDK/client)
-    "default"("us.zoom.videosdk:zoomvideosdk-core:2.5.0")
     "default"("androidx.core:core-ktx:1.15.0")
     "default"("androidx.appcompat:appcompat:1.6.1")
     "default"("androidx.recyclerview:recyclerview:1.2.1")
